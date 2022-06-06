@@ -1,9 +1,9 @@
 import os
 
 class Config:
-    TELEGRAM_TOKEN=os.environ['TELEGRAM_TOKEN',"5498903953:AAG5tVpkwRnawWBqvIBq7pZuw4Qqw3xeD8Y"]
-    TELEGRAM_APP_HASH=os.environ['TELEGRAM_APP_HASH']
-    TELEGRAM_APP_ID=int(os.environ['TELEGRAM_APP_ID'])
+    TELEGRAM_TOKEN=5498903953:AAG5tVpkwRnawWBqvIBq7pZuw4Qqw3xeD8Y
+    TELEGRAM_APP_HASH=4e984ea35f854762dcde906dce426c2d
+    TELEGRAM_APP_ID=6435225
     
     if not TELEGRAM_TOKEN:
         raise ValueError('TELEGRAM BOT TOKEN not set')
