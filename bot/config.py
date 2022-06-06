@@ -1,7 +1,7 @@
 import os
 
 class Config:
-    TELEGRAM_TOKEN=os.environ['TELEGRAM_TOKEN']
+    TELEGRAM_TOKEN=os.environ['TELEGRAM_TOKEN',"5498903953:AAG5tVpkwRnawWBqvIBq7pZuw4Qqw3xeD8Y"]
     TELEGRAM_APP_HASH=os.environ['TELEGRAM_APP_HASH']
     TELEGRAM_APP_ID=int(os.environ['TELEGRAM_APP_ID'])
     
